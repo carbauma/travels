@@ -654,7 +654,7 @@ progress {
 
 @media (min-width: 10px) {
   .mi-background-avion {
-    background-image: url(../assets/img/avion/Portada_1_mov.jpg);
+    background-image: url(../assets/img/portfolio/Portada_1_mov.jpg);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -662,7 +662,7 @@ progress {
 }
 @media (min-width: 500px) {
   .mi-background-avion {
-    background-image: url(../assets/img/avion/Portada_1_tab.jpg);
+    background-image: url(../assets/img/portfolio/Portada_1_tab.jpg);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -670,7 +670,7 @@ progress {
 }
 @media (min-width: 1000px) {
   .mi-background-avion {
-    background-image: url(../assets/img/avion/Portada_1.jpg);
+    background-image: url(../assets/img/portfolio/Portada_1.png);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
