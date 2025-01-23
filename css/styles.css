@@ -10937,7 +10937,7 @@ html {
   display: inline-flex;
   width: 3.25rem;
   height: 3.25rem;
-  font-size: 1.25rem;
+  font-size: 1.75rem;
   justify-content: center;
   align-items: center;
 }
@@ -11139,7 +11139,7 @@ html {
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #4c3729;
 }
 
 .articulos p, ul {
