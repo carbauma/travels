@@ -629,18 +629,18 @@ progress {
 
 @media (min-width: 10px) {
   .mi-background {
-    background-image: url(../assets/img/Portada_1_mov.JPG);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
+    animation: cambiarFondo 50s infinite;
    }
 }
 @media (min-width: 500px) {
   .mi-background {
-    background-image: url(../assets/img/Portada_1_tab.JPG);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
+    animation: cambiarFondo 50s infinite;
    }
 }
 @media (min-width: 1000px) {
@@ -650,22 +650,22 @@ progress {
     background-repeat: no-repeat;
     animation: cambiarFondo 50s infinite;
    }
-   @keyframes cambiarFondo {
-    0% { background-image: url(../assets/img/Portada_1.JPG); }
-    25% { background-image: url(../assets/img/Portada_1.JPG); }
-    30% { background-image: url(../assets/img/avion/Amsterdam/Amsterdam.JPG); }
-    50% { background-image: url(../assets/img/avion/Amsterdam/Amsterdam.JPG); }
-    55% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
-    75% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
-    80% { background-image: url(../assets/img/avion/Menorca/Menorca.JPG); }
-    100% { background-image: url(../assets/img/avion/Menorca/Menorca.JPG); }
-    105% { background-image: url(../assets/img/Portada_1.JPG); }
-  }
+}
+@keyframes cambiarFondo {
+  0% { background-image: url(../assets/img/Portada_1.JPG); }
+  25% { background-image: url(../assets/img/Portada_1.JPG); }
+  30% { background-image: url(../assets/img/bicicleta/Girona/Girona.jpg); }
+  50% { background-image: url(../assets/img/bicicleta/Girona/Girona.jpg); }
+  55% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
+  75% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
+  80% { background-image: url(../assets/img/avion/Marruecos/Marruecos.JPG); }
+  100% { background-image: url(../assets/img/avion/Marruecos/Marruecos.JPG); }
+  105% { background-image: url(../assets/img/Portada_1.JPG); }
 }
 
 @media (min-width: 10px) {
   .mi-background-avion {
-    background-image: url(../assets/img/portfolio/Portada_1_mov.jpg);
+    background-image: url(../assets/img/portfolio/Portada_1_mov.png);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
@@ -673,7 +673,7 @@ progress {
 }
 @media (min-width: 500px) {
   .mi-background-avion {
-    background-image: url(../assets/img/portfolio/Portada_1_tab.jpg);
+    background-image: url(../assets/img/portfolio/Portada_1_tab.png);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
