@@ -645,11 +645,22 @@ progress {
 }
 @media (min-width: 1000px) {
   .mi-background {
-    background-image: url(../assets/img/Portada_1.JPG);
     background-size: 100% auto;
     background-position: center top;
     background-repeat: no-repeat;
+    animation: cambiarFondo 50s infinite;
    }
+   @keyframes cambiarFondo {
+    0% { background-image: url(../assets/img/Portada_1.JPG); }
+    25% { background-image: url(../assets/img/Portada_1.JPG); }
+    30% { background-image: url(../assets/img/avion/Amsterdam/Amsterdam.JPG); }
+    50% { background-image: url(../assets/img/avion/Amsterdam/Amsterdam.JPG); }
+    55% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
+    75% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
+    80% { background-image: url(../assets/img/avion/Menorca/Menorca.JPG); }
+    100% { background-image: url(../assets/img/avion/Menorca/Menorca.JPG); }
+    105% { background-image: url(../assets/img/Portada_1.JPG); }
+  }
 }
 
 @media (min-width: 10px) {
@@ -10971,6 +10982,20 @@ html {
   padding: 0.8rem;
 }
 
+  /* Este trozo lo he puesto yo para el menu desplegable */
+  #mainNav ul a {
+    color:#fff;
+    text-decoration: none;
+  }
+   #mainNav ul ul {
+    list-style:none; 
+    padding-bottom:1.5rem;
+   }
+   #mainNav ul ul li a:hover {
+    color: #d7c2a1;
+  }
+  /* Hasta aqui */
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
@@ -10999,7 +11024,40 @@ html {
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.5em;
   }
+
+  /* Este trozo lo he puesto yo para el menu desplegable */
+#mainNav ul a {
+  display:block;
+  color:#fff;
+  text-decoration: none;
 }
+#mainNav ul li {
+  position:relative;
+  float:left;
+ }
+ #mainNav ul ul {
+  display:none;
+  position:absolute;
+  background:#d7c2a1;
+  list-style:none; 
+  padding:1rem; 
+  margin-top: 0rem;
+  margin-left: 1rem;
+  border-radius: 0% 0% 5% 5%;
+ }
+ #mainNav ul ul li {
+  float:none;
+ }
+ #mainNav ul li:hover > ul {
+  display:block;
+ }
+ #mainNav ul ul li a:hover {
+  color: #654936;
+}
+/* Hasta aqui */
+
+}
+
 .form-floating input.form-control,
 .form-floating textarea.form-control {
   font-size: 1.5rem;
@@ -11145,3 +11203,4 @@ html {
 .articulos p, ul {
   text-align: justify;
 }
+
