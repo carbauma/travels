@@ -634,6 +634,17 @@ progress {
     background-repeat: no-repeat;
     animation: cambiarFondo 50s infinite;
    }
+   @keyframes cambiarFondo {
+    0% { background-image: url(../assets/img/Portada_1_mov.JPG); }
+    25% { background-image: url(../assets/img/Portada_1_mov.JPG); }
+    30% { background-image: url(../assets/img/Portada_2_mov.jpg); }
+    50% { background-image: url(../assets/img/Portada_2_mov.jpg); }
+    55% { background-image: url(../assets/img/Portada_3_mov.JPG); }
+    75% { background-image: url(../assets/img/Portada_3_mov.JPG); }
+    80% { background-image: url(../assets/img/Portada_4_mov.jpeg); }
+    100% { background-image: url(../assets/img/Portada_4_mov.jpeg); }
+    105% { background-image: url(../assets/img/Portada_1_mov.JPG); }
+  }
 }
 @media (min-width: 500px) {
   .mi-background {
@@ -642,6 +653,17 @@ progress {
     background-repeat: no-repeat;
     animation: cambiarFondo 50s infinite;
    }
+   @keyframes cambiarFondo {
+    0% { background-image: url(../assets/img/Portada_1_tab.JPG); }
+    25% { background-image: url(../assets/img/Portada_1_tab.JPG); }
+    30% { background-image: url(../assets/img/Portada_2_tab.jpg); }
+    50% { background-image: url(../assets/img/Portada_2_tab.jpg); }
+    55% { background-image: url(../assets/img/Portada_3_tab.JPG); }
+    75% { background-image: url(../assets/img/Portada_3_tab.JPG); }
+    80% { background-image: url(../assets/img/Portada_4_tab.jpeg); }
+    100% { background-image: url(../assets/img/Portada_4_tab.jpeg); }
+    105% { background-image: url(../assets/img/Portada_1_tab.JPG); }
+  }
 }
 @media (min-width: 1000px) {
   .mi-background {
@@ -650,18 +672,19 @@ progress {
     background-repeat: no-repeat;
     animation: cambiarFondo 50s infinite;
    }
+   @keyframes cambiarFondo {
+    0% { background-image: url(../assets/img/Portada_1.JPG); }
+    25% { background-image: url(../assets/img/Portada_1.JPG); }
+    30% { background-image: url(../assets/img/Portada_2.jpg); }
+    50% { background-image: url(../assets/img/Portada_2.jpg); }
+    55% { background-image: url(../assets/img/Portada_3.JPG); }
+    75% { background-image: url(../assets/img/Portada_3.JPG); }
+    80% { background-image: url(../assets/img/Portada_4.jpeg); }
+    100% { background-image: url(../assets/img/Portada_4.jpeg); } 
+    105% { background-image: url(../assets/img/Portada_1.JPG); }
+  }
 }
-@keyframes cambiarFondo {
-  0% { background-image: url(../assets/img/Portada_1.JPG); }
-  25% { background-image: url(../assets/img/Portada_1.JPG); }
-  30% { background-image: url(../assets/img/bicicleta/Girona/Girona.jpg); }
-  50% { background-image: url(../assets/img/bicicleta/Girona/Girona.jpg); }
-  55% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
-  75% { background-image: url(../assets/img/bicicleta/Cabo_Gata/Gata.jpg); }
-  80% { background-image: url(../assets/img/avion/Marruecos/Marruecos.JPG); }
-  100% { background-image: url(../assets/img/avion/Marruecos/Marruecos.JPG); }
-  105% { background-image: url(../assets/img/Portada_1.JPG); }
-}
+
 
 @media (min-width: 10px) {
   .mi-background-avion {
@@ -11087,7 +11110,7 @@ html {
 }
 
 .masthead .masthead-heading {
-  font-size: 2.75rem;
+  font-size: 1.75rem;
   line-height: 2.75rem;
 }
 .masthead .masthead-subheading {
@@ -11103,7 +11126,7 @@ html {
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 3.5rem;
   }
   .masthead .masthead-subheading {
