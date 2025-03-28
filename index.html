@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<!-- Head -->
+ <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="Carlos_BM" content="" />
-    <title>Travels</title>
+    <title>The Perfect Tandem</title>
     <!-- Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/polar.png" />
     <!-- Font Awesome icons (free version)-->
@@ -17,94 +18,50 @@
         type="text/css" />
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/styles.css" rel="stylesheet" />
-</head>
+ </head>
 
 <body id="page-top">
     <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
-        <div class="container">
-            <a class="navbar-brand" href="#page-top">Travels</a>
-            <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
-                data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
-                aria-expanded="false" aria-label="Toggle navigation">
-                Menú
-                <i class="fas fa-bars"></i>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#portfolio">Nuestros viajes</a>
-                        <!-- start menu desplegable -->
-                        <ul>
-                            <li><a href="pages/en_avion.html">En avión</a></li>
-                            <li><a href="pages/en_bicicleta.html">En bicicleta</a></li>
-                            <li><a href="pages/en_moto.html">En moto</a></li>
-                            <li><a href="pages/en_camper.html">En camper</a></li>
-                            <li><a href="pages/en_barco.html">En barco</a></li>
-                        </ul>
-                        <!-- end menu desplegable -->    
-                    </li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#map">El
-                            mapa</a></li>
-                    <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded"
-                            href="#contact">Contacto</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="nav"></div>
+    <script src="Navigation/nav.js"></script>
+    
+
     <!-- Masthead-->
     <header class="text-white text-center">
-
         <div class="mi-background">
             <div class="masthead container d-flex align-items-center flex-column">
                 <!-- Masthead Avatar Image-->
-                <img class="masthead-avatar mb-5" src="assets/img/Logo.png" alt="..." />
+                <img class="masthead-avatar mb-5" src="assets/img/Logo.png" alt="Logo_the_perfect_tandem" />
                 <!-- Masthead Heading-->
-                <h1 class="masthead-heading mb-0">Viajes alrededor del mundo</h1>
+                <h1 class="masthead-heading mb-0">Viajes a dos ruedas, en camper, senderismo y más...</h1>
                 <br><br>
             </div>
         </div>
-
     </header>
+
     <!-- Portfolio Section-->
     <section class="page-section portfolio" id="portfolio">
         <div class="container">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Nuestros viajes</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Destinos</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                 <div class="divider-custom-line"></div>
             </div>
+
             <!-- Portfolio Grid Items-->
             <div class="row justify-content-center">
+                
                 <!-- Portfolio Item 1-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <a href="pages/en_avion.html" class="portfolio-item mx-auto">
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <a href="en_bicicleta.html" class="portfolio-item mx-auto">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                             <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
                             </div>
                             <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
-                                <div class="portfolio-item-titol-content text-center text-white">En avión</div>
-                            </div>
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white"><i
-                                        class="fas fa-plus fa-3x"></i></div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/A_pie.jpg" alt="..." />
-                        </div>
-                    </a>
-                </div>
-                <!-- Portfolio Item 2-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <a href="pages/en_bicicleta.html" class="portfolio-item mx-auto">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
-                            <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
-                            </div>
-                            <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
-                                <div class="portfolio-item-titol-content text-center text-white">En bicicleta</div>
+                                <div class="portfolio-item-titol-content text-center text-white" style="margin-top: 22px;">A dos ruedas</div>
                             </div>
                             <div
                                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -116,33 +73,14 @@
                     </a>
                 </div>
 
-                <!-- Portfolio Item 3-->
-                <div class="col-md-6 col-lg-4 mb-5">
-                    <a href="pages/en_moto.html" class="portfolio-item mx-auto">
+                <!-- Portfolio Item 2-->
+                <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+                    <a href="en_camper.html" class="portfolio-item mx-auto">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                             <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
                             </div>
                             <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
-                                <div class="portfolio-item-titol-content text-center text-white">En moto</div>
-                            </div>
-                            <div
-                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
-                                <div class="portfolio-item-caption-content text-center text-white">
-                                    <i class="fas fa-plus fa-3x"></i>
-                                </div>
-                            </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Moto.JPG" alt="..." />
-                        </div>
-                    </a>
-                </div>
-                <!-- Portfolio Item 4-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                    <a href="pages/en_camper.html" class="portfolio-item mx-auto">
-                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
-                            <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
-                            </div>
-                            <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
-                                <div class="portfolio-item-titol-content text-center text-white">En camper</div>
+                                <div class="portfolio-item-titol-content text-center text-white" style="margin-top: 22px;">en camper</div>
                             </div>
                             <div
                                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
@@ -153,36 +91,91 @@
                         </div>
                     </a>
                 </div>
-                <!-- Portfolio Item 5-->
-                <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
-                    <a href="pages/en_barco.html" class="portfolio-item mx-auto">
+
+                <!-- Portfolio Item 3-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <a href="senderismo.html" class="portfolio-item mx-auto">
                         <div class="portfolio-item mx-auto" data-bs-toggle="modal">
                             <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
                             </div>
                             <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
-                                <div class="portfolio-item-titol-content text-center text-white">En barco</div>
+                                <div class="portfolio-item-titol-content text-center text-white" style="margin-top: 22px;">senderismo</div>
                             </div>
                             <div
                                 class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                                 <div class="portfolio-item-caption-content text-center text-white"><i
                                         class="fas fa-plus fa-3x"></i></div>
                             </div>
-                            <img class="img-fluid" src="assets/img/portfolio/Barco.jpg" alt="..." />
+                            <img class="img-fluid" src="assets/img/portfolio/Montaña.jpg" alt="..." />
                         </div>
                     </a>
                 </div>
 
+                <!-- Portfolio Item 4-->
+                <div class="col-md-6 col-lg-3 mb-5">
+                    <a href="en_avion.html" class="portfolio-item mx-auto">
+                        <div class="portfolio-item mx-auto" data-bs-toggle="modal">
+                            <div class="portfolio-item-box d-flex align-items-top justify-content-center h-100 w-100">
+                            </div>
+                            <div class="portfolio-item-titol d-flex align-items-top justify-content-center h-100 w-100">
+                                <div class="portfolio-item-titol-content text-center text-white" style="margin-top: 22px;">y más...</div>
+                            </div>
+                            <div
+                                class="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
+                                <div class="portfolio-item-caption-content text-center text-white"><i
+                                        class="fas fa-plus fa-3x"></i></div>
+                            </div>
+                            <img class="img-fluid" src="assets/img/portfolio/Avion.jpg" alt="..." />
+                        </div>
+                    </a>
+                </div>
+                
             </div>
         </div>
     </section>
 
+    <!-- About Section-->
+    <section class="page-section bg-primary text-white mb-0" id="about">
+        <div class="container d-flex align-items-center flex-column">
+            <!-- About Section Heading-->
+            <h2 class="page-section-heading text-center text-uppercase text-white">Sobre nosotros</h2>
+            <!-- Icon Divider-->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <!-- Imagen-->
+            <img class="profile mb-5 mt-3" src="assets/img/avion/Marruecos/Marruecos.JPG" alt="Nosotros" />
+            <!-- About Section Content-->
+            <div class="row">
+                <div class="col-lg-6 ms-auto">
+                    <!-- Descripcion-->
+                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
+                        dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+                <div class="col-lg-6 me-auto">
+                    <!-- Descripcion-->
+                    <p class="lead">You can create your own custom avatar for the masthead, change the icon in the
+                        dividers, and add your email address to the contact form to make it fully functional!</p>
+                </div>
+            </div>
+            <!-- About Section Button
+            <div class="text-center mt-4">
+                <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
+                    <i class="fas fa-download me-2"></i>
+                    Free Download!
+                </a>
+            </div>-->
+        </div>
+    </section>
 
     <!-- Map Section-->
     <section class="page-section mb-0" id="map">
         <div class="container d-flex align-items-center flex-column">
             <!-- About Section Content-->
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">El mapa</h2>
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mapa</h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
                 <div class="divider-custom-line"></div>
@@ -195,8 +188,9 @@
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
+
     <!-- Contact Section-->
-    <section class="page-section" id="contact">
+    <section class="page-section" id="contact" style="display: none;">
         <div class="container">
             <!-- Contact Section Heading-->
             <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Contacta con nosotros</h2>
@@ -251,37 +245,11 @@
             </div>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="footer text-center">
-        <div class="container">
-            <div class="row">
-                <!-- Footer Location-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Ubicación</h4>
-                    <p class="lead mb-0">Valencia, España</p>
-                </div>
-                <!-- Footer Social Icons-->
-                <div class="col-lg-4 mb-5 mb-lg-0">
-                    <h4 class="text-uppercase mb-4">Redes sociales</h4>
-                    <a class="btn btn-outline-light btn-social mx-1" href=""><i class="fa-regular fa-compass"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href=""><i class="fab fa-fw fa-instagram"></i></a>
-                    <a class="btn btn-outline-light btn-social mx-1" href=""><i class="fab fa-fw fa-youtube"></i></a>
-                </div>
-                <!-- Footer About Text-->
-                <div class="col-lg-4">
-                    <h4 class="text-uppercase mb-4">Sobre Nosotros</h4>
-                    <p class="lead mb-0">
-                        El proyecto...
-                    </p>
-                </div>
-            </div>
-        </div>
-    </footer>
     
-    <!-- Copyright Section-->
-    <div class="copyright py-4 text-center text-white">
-        <div class="container"><small>Copyright &copy; Travels 2025</small></div>
-    </div>
+    <!-- Footer & Copyright Section -->
+    <div id="footer"></div>
+    <script src="Footer/footer.js"></script>
+
     
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

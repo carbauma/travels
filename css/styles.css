@@ -10979,7 +10979,7 @@ html {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Permanent Marker", cursive, "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
 }
 #mainNav .navbar-brand {
@@ -11005,6 +11005,19 @@ html {
   padding: 0.8rem;
 }
 
+/* Logo responsive */
+@media (max-width: 996px) {
+  .logo-navbar {
+    display: none;
+    margin-right: 2%;
+    width: 6%;
+  }
+}
+.logo-navbar {
+  margin-right: 2%;
+  width: 6%;
+}
+
   /* Este trozo lo he puesto yo para el menu desplegable */
   #mainNav ul a {
     color:#fff;
@@ -11013,6 +11026,7 @@ html {
    #mainNav ul ul {
     list-style:none; 
     padding-bottom:1.5rem;
+    width: 170px;
    }
    #mainNav ul ul li a:hover {
     color: #d7c2a1;
@@ -11077,6 +11091,11 @@ html {
  #mainNav ul ul li a:hover {
   color: #654936;
 }
+#mainNav ul ul ul {
+  margin-left: 8rem;
+  margin-top: -2.5rem;
+
+ }
 /* Hasta aqui */
 
 }
@@ -11118,6 +11137,7 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  margin-top: 10%;
 }
 
 @media (min-width: 992px) {
@@ -11128,17 +11148,31 @@ html {
   .masthead .masthead-heading {
     font-size: 3rem;
     line-height: 3.5rem;
+    padding-bottom: 6%;
   }
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
 }
-.profile {
-  border-radius: 50%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
+
+@media (min-width: 20px) {
+  .profile {
+    width:300px;
+    border-radius: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
+@media (min-width: 600px) {
+  .profile {
+    width:550px;
+    border-radius: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  }
 
 @media (min-width: 20px) {
   .video {
@@ -11165,7 +11199,7 @@ html {
   position: relative;
   display: block;
   max-width: 25rem;
-  border-radius: 0.5rem;
+  border-radius: 0.8rem;
   overflow: hidden;
 }
 .portfolio .portfolio-item .portfolio-item-box {
@@ -11176,10 +11210,11 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-titol {
   position: absolute;
-  top: 77%;
+  top: 80%;
 }
 .portfolio .portfolio-item .portfolio-item-titol .portfolio-item-titol-content {
-  font-size: 2.5rem;
+  font-size: 2rem;
+  font-family: "Permanent Marker", cursive;
 }
 .portfolio .portfolio-item .portfolio-item-caption {
   position: absolute;
