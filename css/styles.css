@@ -11120,7 +11120,7 @@ html {
 
 .masthead {
   padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-bottom: 0rem;
 }
 
 .masthead-pages {
@@ -11210,7 +11210,7 @@ html {
 }
 .portfolio .portfolio-item .portfolio-item-titol {
   position: absolute;
-  top: 80%;
+  top: 76%;
 }
 .portfolio .portfolio-item .portfolio-item-titol .portfolio-item-titol-content {
   font-size: 2rem;
